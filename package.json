@@ -1,0 +1,31 @@
+{
+  "name": "@maryamashfaq0/devops-pipeline",
+  "version": "1.1.0",
+  "description": "Renders the course Markdown sources into HTML pages.",
+  "main": "tools/build.js",
+  "bin": {
+    "devops-build": "tools/build.js"
+  },
+  "files": [
+    "tools/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "markdown-it": "^15.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaryamAshfaq0/DevopsProject1174-1175.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
