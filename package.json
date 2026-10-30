@@ -17,9 +17,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "js-yaml": "^4.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "markdown-it": "^15.0.3"
   },
