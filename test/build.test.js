@@ -23,3 +23,7 @@ test('no page is empty', () => {
     assert.ok(size > 0, p + ' is a zero-byte file');
   }
 });
+
+test('the services page exists', () => {
+  assert.ok(fs.existsSync('out/services.html'));
+});
